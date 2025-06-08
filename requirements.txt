@@ -1,0 +1,5 @@
+openai
+pydantic
+tqdm
+iptcinfo3
+opencv-python
