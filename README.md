@@ -29,6 +29,11 @@ sudo apt-get install ffmpeg libimage-exiftool-perl
 
 ## Usage
 
+Before running the script, you must set your OpenAI API key as an environment variable:
+```
+export OPENAI_API_KEY=your_openai_api_key_here
+```
+
 Run the script with:
 ```
 python generator.py <path-to-image-or-video-or-directory> [--location "Location Name"]
